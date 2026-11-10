@@ -1,0 +1,36 @@
+# Generated local builds and macOS app bundles
+.build/
+.swiftpm/
+*.app/
+.DS_Store
+xcuserdata/
+*.xcuserstate
+
+# Personal finance databases, review state and exports
+.local-review/
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.db3
+*.db3-*
+*.csv
+*.tsv
+*.log
+exports/
+screenshots/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keychain
+*.keychain-db
+.local-signing/
+keychain-password
